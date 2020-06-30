@@ -1,0 +1,36 @@
+
+// Autoprefixer
+@import "../../node_modules/sass-autoprefixer/scss/prefixes";
+@import "../../node_modules/bootstrap-4-grid/css/grid.min.css";
+@import "../../node_modules/swiper/css/swiper.min.css";
+
+@import "./header";
+@import "./main-bg";
+@import "./products";
+@import "./about";
+
+
+* { 
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 9000px;
+}
+
+.tt-upper {
+    text-transform: uppercase;
+}
+
+.tac {
+    text-align: center;
+}
+
+.img-res {
+    max-width: 100%;
+    height: auto;
+}
+
+
