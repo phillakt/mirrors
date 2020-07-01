@@ -1,216 +1,331 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>АртДекор</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Oswald:200,400,600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <!-- https://15zerkal.ru/ -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>АртДекор</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,900|Oswald:200,400,600&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+</head>
 
-    <div class="main">
-      <section class="header">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-2">
-              <div class="logo">
-                <a href="#!">
-                  <!-- Logo -->
-                </a>
-              </div>
+<body>
+  <!-- https://15zerkal.ru/ -->
+
+  <div class="main">
+    <header class="header">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-lg-2">
+            <div class="logo">
+              <a href="#!">
+                <!-- Logo -->
+                <img src="../images/logo-w.webp" alt="logo">
+              </a>
             </div>
+          </div>
 
-            <div class="col-lg-8">
-              <ul class="menu">
-                <li>
-                  <a href="#!">Каталог зеркал</a>
-                </li>
-                <li>
-                  <a href="#!">Почему 10?</a>
-                </li>
-                <li>
-                  <a href="#!">Доставка и шоу-рум </a>
-                </li>
-                <li>
-                  <a href="#!">О зеркалах</a>
-                </li>
-                <li>
-                  <a href="#!">Контакты</a>
-                </li>
-              </ul>
-            </div>
+          <div class="col-lg-8">
+            <ul class="menu">
+              <li>
+                <div class="btn-times">
+                  <span>×</span>
+                </div>
+              </li>
+              <li>
+                <a href="#!">Каталог зеркал</a>
+              </li>
+              <li>
+                <a href="#!">Почему 10?</a>
+              </li>
+              <li>
+                <a href="#!">Доставка и шоу-рум </a>
+              </li>
+              <li>
+                <a href="#!">О зеркалах</a>
+              </li>
+              <li>
+                <a href="#!">Контакты</a>
+              </li>
+            </ul>
 
-            <div class="col-lg-2">
+            <div class="menu-back-layer"></div>
+          </div>
+
+          <div class="col-lg-2">
+
+            <div class="header__mobile">
               <div class="phone">
-                <a href="#!">8-800-000-00-00</a>
+                <a href="tel:8 800 000-00-00">8 800 000-00-00</a>
               </div>
+
+              <div class="hamburger-btn">
+                <div class="hamburger hamburger--arrow" type="button">
+                  <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                  </span>
+                  </button>
+                </div>
+
+              </div>
+
             </div>
           </div>
         </div>
-      </section>
+        </header>
 
-      <section class="main-bg">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <h1>10 лучших зеркал</h1>
-              <h2>
-                Избранная коллекция в продаже у производителя. <br />
-                Цена - минимальная, эффект - максимальный!
-              </h2>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="products">
-        <div class="container">
-          <div class="row">
-            <!-- 1 -->
-            <div class="col-lg-4">
-              <div class="products__box">
-                <div class="products__img">
-                  <img src="../images/producs/prod_1.webp" alt="prod_1" />
-                </div>
-                <div class="products__box">
-                  <div class="products__title">
-                    Зеркало "Эрмитаж"
-                  </div>
-                  <div class="products__desc">
-                    Размер 150х70 см
-                  </div>
-                  <div class="products__price">
-                    5900 р.
-                  </div>
-                  <div class="products-wrap">
-                    <span class="products__btn_more">подробнее</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- 2 -->
-            <div class="col-lg-4">
-              <div class="products__box">
-                <div class="products__img">
-                  <img src="../images/producs/prod_1.webp" alt="prod_1" />
-                </div>
-                <div class="products__box">
-                  <div class="products__title">
-                    Зеркало "Эрмитаж"
-                  </div>
-                  <div class="products__desc">
-                    Размер 150х70 см
-                  </div>
-                  <div class="products__price">
-                    5900 р.
-                  </div>
-                  <div class="products-wrap">
-                    <span class="products__btn_more">подробнее</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- 3 -->
-            <div class="col-lg-4">
-              <div class="products__box">
-                <div class="products__img">
-                  <img src="../images/producs/prod_1.webp" alt="prod_1" />
-                </div>
-                <div class="products__box">
-                  <div class="products__title">
-                    Зеркало "Эрмитаж"
-                  </div>
-                  <div class="products__desc">
-                    Размер 150х70 см
-                  </div>
-                  <div class="products__price">
-                    5900 р.
-                  </div>
-                  <div class="products-wrap">
-                    <span class="products__btn_more">подробнее</span>
-                  </div>
-                </div>
+        <section class="main-bg">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <h1>10 лучших зеркал</h1>
+                <h2>
+                  Избранная коллекция в продаже у производителя. <br />
+                  Цена - минимальная, эффект - максимальный!
+                </h2>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="about">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="about__terms">
-                Вы можете заказать зеркало в любом <br />
-                из представленных здесь видов багета <br />
-                <u>в необходимом Вам размере.</u> <br />
-                Воспользуйтесь формой для связи в <br />
-                конце этой страницы, мы свяжемся с <br />
-                Вами и рассчитаем заказ.
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="about__title">
-                <span>О нас</span>
-              </div>
-              <div class="about__desc">
-                <p>
-                  Вы хотите выбрать зеркало в магазине с широкий ассортиментом?
-                  Это привычно и кажется логичным. Но будьте готовы к тому, что
-                  именно вы оплатите этот широкий выбор, из вашего кошелька.
-                  Вашему продавцу потребуется склад, шоу-рум, персонал, развитие
-                  логистики, подключение транспорта…
-                </p>
-                <br />
-                <p>
-                  Мы решили сломать стереотипы и сделать ставку на необходимый
-                  минимум, оптимальное сочетание цены, качества, удобства выбора
-                  и совершения покупки.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="container">
-          <div class="row">
+        <section class="products">
+          <div class="container">
+            <div class="row">
               <!-- 1 -->
-            <div class="col-lg-4">
-              <div class="about__icons">
-                <div class="about__icons_img">
-                  <div class="about__icons_img-bg">
-                    <img src="../images/icons/1.svg" alt="icons" />
+              <div class="col-lg-4">
+                <div class="products__box">
+                  <div class="products__img">
+                    <img src="../images/producs/prod_1.webp" alt="prod_1" />
+                  </div>
+                  <div class="products__box">
+                    <div class="products__title">
+                      Зеркало "Эрмитаж"
+                    </div>
+                    <div class="products__desc">
+                      Размер 150х70 см
+                    </div>
+                    <div class="products__price">
+                      5900 р.
+                    </div>
+                    <div class="products-wrap">
+                      <span class="products__btn_more">подробнее</span>
+                    </div>
                   </div>
                 </div>
-                <div class="about__icons_desc">
-                  Минимум «ДекАртРус» – 15 зеркал из самой популярной <br>, всегда
-                  хитовой коллекции.
+              </div>
+
+              <!-- 2 -->
+              <div class="col-lg-4">
+                <div class="products__box">
+                  <div class="products__img">
+                    <img src="../images/producs/prod_1.webp" alt="prod_1" />
+                  </div>
+                  <div class="products__box">
+                    <div class="products__title">
+                      Зеркало "Эрмитаж"
+                    </div>
+                    <div class="products__desc">
+                      Размер 150х70 см
+                    </div>
+                    <div class="products__price">
+                      5900 р.
+                    </div>
+                    <div class="products-wrap">
+                      <span class="products__btn_more">подробнее</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 3 -->
+              <div class="col-lg-4">
+                <div class="products__box">
+                  <div class="products__img">
+                    <img src="../images/producs/prod_1.webp" alt="prod_1" />
+                  </div>
+                  <div class="products__box">
+                    <div class="products__title">
+                      Зеркало "Эрмитаж"
+                    </div>
+                    <div class="products__desc">
+                      Размер 150х70 см
+                    </div>
+                    <div class="products__price">
+                      5900 р.
+                    </div>
+                    <div class="products-wrap">
+                      <span class="products__btn_more">подробнее</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
+          </div>
+        </section>
 
-            <!-- 2 -->
-            <div class="col-lg-4">
+        <section class="products-mobile">
+          <div class="container">
+            <div class="row">
+
+              <div class="col-lg-12">
+                <div class="products-mobile">
+                  <div class="inimate-hand">
+                    <img src="../images/icons/inimate-hand.svg" alt="inimate-hand">
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-12">
+                <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <!-- 1 -->
+                      <div class="products__box">
+                        <div class="products__img">
+                          <img src="../images/producs/prod_1.webp" alt="prod_1" />
+                        </div>
+                        <div class="products__box">
+                          <div class="products__title">
+                            Зеркало "Эрмитаж"
+                          </div>
+                          <div class="products__desc">
+                            Размер 150х70 см
+                          </div>
+                          <div class="products__price">
+                            5900 р.
+                          </div>
+                          <div class="products-wrap">
+                            <span class="products__btn_more">подробнее</span>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="swiper-slide">
+                      <!-- 2 -->
+                      <div class="products__box">
+                        <div class="products__img">
+                          <img src="../images/producs/prod_1.webp" alt="prod_1" />
+                        </div>
+                        <div class="products__box">
+                          <div class="products__title">
+                            Зеркало "Эрмитаж"
+                          </div>
+                          <div class="products__desc">
+                            Размер 150х70 см
+                          </div>
+                          <div class="products__price">
+                            5900 р.
+                          </div>
+                          <div class="products-wrap">
+                            <span class="products__btn_more">подробнее</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <!-- 3 -->
+                      <div class="products__box">
+                        <div class="products__img">
+                          <img src="../images/producs/prod_1.webp" alt="prod_1" />
+                        </div>
+                        <div class="products__box">
+                          <div class="products__title">
+                            Зеркало "Эрмитаж"
+                          </div>
+                          <div class="products__desc">
+                            Размер 150х70 см
+                          </div>
+                          <div class="products__price">
+                            5900 р.
+                          </div>
+                          <div class="products-wrap">
+                            <span class="products__btn_more">подробнее</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Add Pagination -->
+                  <div class="swiper-scrollbar"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="about">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="about__terms">
+                  Вы можете заказать зеркало в любом <br />
+                  из представленных здесь видов багета <br />
+                  <u>в необходимом Вам размере.</u> <br />
+                  Воспользуйтесь формой для связи в <br />
+                  конце этой страницы, мы свяжемся с <br />
+                  Вами и рассчитаем заказ.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="about__title mb-60">
+                  <span>О нас</span>
+                </div>
+                <div class="about__desc mb-100">
+                  <p>
+                    Вы хотите выбрать зеркало в магазине с широкий ассортиментом?
+                    Это привычно и кажется логичным. Но будьте готовы к тому, что
+                    именно вы оплатите этот широкий выбор, из вашего кошелька.
+                    Вашему продавцу потребуется склад, шоу-рум, персонал, развитие
+                    логистики, подключение транспорта…
+                  </p>
+                  <br />
+                  <p>
+                    Мы решили сломать стереотипы и сделать ставку на необходимый
+                    минимум, оптимальное сочетание цены, качества, удобства выбора
+                    и совершения покупки.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <!-- 1 -->
+              <div class="col-lg-4">
                 <div class="about__icons">
                   <div class="about__icons_img">
-                    <div class="about__icons_img-bg">
+                    <div class="about__icons_img-80">
+                      <img src="../images/icons/1.svg" alt="icons" />
+                    </div>
+                  </div>
+                  <div class="about__icons_desc">
+                    Минимум «ДекАртРус» – 15 зеркал из самой популярной, всегда
+                    хитовой коллекции.
+                  </div>
+                </div>
+              </div>
+
+              <!-- 2 -->
+              <div class="col-lg-4">
+                <div class="about__icons">
+                  <div class="about__icons_img">
+                    <div class="about__icons_img-80">
                       <img src="../images/icons/2.svg" alt="icons" />
                     </div>
                   </div>
                   <div class="about__icons_desc">
-                    Минимальные затраты на рекламу, торговые <br> площади и персонал
+                    Минимальные затраты на рекламу, торговые <br />
+                    площади и персонал
                   </div>
                 </div>
               </div>
@@ -219,19 +334,311 @@
               <div class="col-lg-4">
                 <div class="about__icons">
                   <div class="about__icons_img">
-                    <div class="about__icons_img-bg">
+                    <div class="about__icons_img-80">
                       <img src="../images/icons/3.svg" alt="icons" />
                     </div>
                   </div>
                   <div class="about__icons_desc">
-                    Прямая поставка с производства – без <br> наценок посредников.
+                    Прямая поставка с производства – без <br />
+                    наценок посредников.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="black_line">
+                  <span></span>
+                </div>
+              </div>
+
+              <div class="col-lg-12">
+                <h3 class="about__title about__title-h2">
+                  В результате: цена «ДекАртРус» самая низкая из всех возможных!
+                </h3>
+              </div>
+
+              <div class="col-lg-12">
+                <div class="black_line">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 offset-lg-4">
+                <div class="logo mb-50">
+                  <img src="../images/logo-w.webp" alt="logo">
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <h3 class="about__title-advertising mb-60">
+                  Почему всего 15 зеркал удовлетворяют 90% ожиданий владельца:
+                  основные <br />
+                  параметры хита продаж
+                </h3>
+
+                <div class="about__desc">
+                  <p>
+                    ООО «ДекАртРус» уже более 15 лет производит и поставляет
+                    репродукции картин, фоторамки и зеркала в крупнейшие сети
+                    гипермаркетов России. Среди наших постоянных партнеров –
+                    торговые сети Metro Cash&Carry, Hoff, «Максидом», «Домовой»,
+                    Prizma и многие другие.
+                  </p>
+                  <br />
+                  <p>
+                    Согласитесь, это серьезный опыт, чтобы можно было делать
+                    уверенное, экспертное заключение, и мы его сделали в сфере
+                    производства зеркал.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="black_line">
+                  <span></span>
+                </div>
+              </div>
+
+              <div class="col-lg-12">
+                <h3 class="about__title-advertising">
+                  До 90% владельцев недвижимости ориентированы всего на 10-15
+                  вариантов изделий, причем совершенно не заинтересованы в
+                  переплате сверх их реальной стоимости.
+                </h3>
+              </div>
+
+              <div class="col-lg-12">
+                <div class="black_line">
+                  <span></span>
+                </div>
+              </div>
+
+              <div class="col-lg-10 offset-lg-1">
+                <div class="about__desc">
+                  <p>
+                    Основные параметры наиболее востребованного зеркала, которое
+                    можно смело называть хитом продаж – подходящий размер,
+                    современный дизайн и стиль, доступная цена. Мы предлагаем вам
+                    именно такие изделия.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- mоney && furniture -->
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="about__icons">
+                  <div class="about__icons_img">
+                    <div class="about__icons_img-100">
+                      <img src="../images/icons/4.svg" alt="icons" />
+                    </div>
+                  </div>
+                  <div class="about__icons_desc about__icons_desc-16">
+                    Вам не придется переплачивать за точно такую же модель, но
+                    предложенную в широком ассортименте магазина предметов
+                    интерьера.
                   </div>
                 </div>
               </div>
 
+              <div class="col-lg-6">
+                <div class="about__icons">
+                  <div class="about__icons_img">
+                    <div class="about__icons_img-100">
+                      <img src="../images/icons/5.svg" alt="icons" />
+                    </div>
+                  </div>
+                  <div class="about__icons_desc about__icons_desc-16">
+                    Вы сделаете выбор и совершите покупку быстро и с комфортом,
+                    сэкономите время и деньги, и поэтому точно не разочаруетесь!
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </section>
-    </div>
-  </body>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-10 offset-lg-1">
+                <div class="about__desc mb-30">
+                  <p>
+                    В нашем каталоге представлены только самые востребованные
+                    зеркала, доступные по цене. Именно эти 15 моделей традиционно
+                    выбирают из сотен предложений в интерьерных супермаркетах.
+                    Именно эти зеркала закрывают большинство потребностей в самых
+                    разных сферах применения.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-10 offset-lg-1">
+                <div class="about__list mb-30">
+                  <ul>
+                    <li>
+                      У нас вы не столкнетесь со сложностями огромного выбор,
+                      разбросом цен, неудобством просмотра в сети. Мы могли бы
+                      предложить вам сотню других вариантов, но не будем морочить
+                      вам голову.
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      У нас не бывает переплат. Мы не поднимаем цены, чтобы потом
+                      устроить фиктивную распродажу. Стоимость на качественные
+                      изделия самая минимальная из всех возможных!
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      Мы не собираемся создавать таинственность вокруг нашей
+                      продукции малопонятными вам факторами – никаких длинных
+                      описаний и мелких фото: наши зеркала выглядят именно так,
+                      какими вы их видите здесь.
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      В «ДекАртРус» вы ориентируетесь только на свое субъективное
+                      мнение – нравится или не нравится!
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      Наша цель – упростить выбор и объяснить, что есть всего 15
+                      основополагающих вариантов. Остальное – вариации.
+                    </li>
+                  </ul>
+                </div>
+                <div class="about__desc mb-60">
+                  К самым низким ценам на наиболее востребованные модели зеркал,
+                  хиты продаж, прибавьте гарантию прямого, надежного и
+                  проверенного на рынке России производителя. Вы поймете, что
+                  проблемы поиска лучшего решения для вашего интерьера уже сняты!
+                  Мы вернем разницу, если увидите дешевле, но можете не терять
+                  время на другие магазины. Что вам остается сделать?
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 offset-lg-2">
+                <ul class="about__list-number">
+                  <li class="pl-30 pb-40">
+                    Загляните в наш простейший каталог, где нет 100+ страниц;
+                  </li>
+                  <li class="pl-30 pb-40">
+                    Посмотрите всего 15 отличных, профессиональных фото зеркал;
+                  </li>
+                  <li class="pl-30 pb-40">
+                    Оформите заявку, воспользовавшись простейшей формой, укажите
+                    контакты для менеджера;
+                  </li>
+                  <li class="pl-30 pb-40">
+                    Получите изделие в оговоренные сроки.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="container mt-60">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="btn-to-products">
+                  <span>к каталогу зеркал</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- about end -->
+        </section>
+
+        <section class="form">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <h1 class="mb-40">Свяжитесь с нами по любым вопросам</h1>
+                <h3 class="mb-60">
+                  Мы всегда рады коллаборациям, интересным проектам и отзывам
+                  наших клиентов
+                </h3>
+              </div>
+
+              <div class="col-lg-6 offset-lg-3">
+                <form class="form-box">
+                  <p>
+                    <input name="name" class="mb-20" type="text" placeholder="Ваше имя">
+                  </p>
+                  <p>
+                    <input name="phone" class="mb-20" type="text" placeholder="Ваш телефон">
+                  </p>
+                  <p>
+                    <textarea name="text" class="mb-20" cols="30" rows="5" placeholder="Текст"></textarea>
+                  </p>
+                  <p>
+                  <div class="form-btn-sendler">
+                    <span>отправить</span>
+                  </div>
+                  </p>
+                </form>
+              </div>
+
+              <div class="col-lg-12">
+                <p class="desc mt-30">
+                  Нажимая на кнопку, вы даете согласие на обработку персональных данных
+                  и соглашаетесь c политикой конфиденциальности
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 offset-lg-4">
+                <div class="footer__logo mb-60">
+                  <img src="../images/logo-w.webp" alt="logo">
+                </div>
+              </div>
+
+              <div class="col-lg-4 offset-lg-4">
+                <div class="footer__contact">
+                  <div>
+                    <p><strong>Тел.:</strong>
+                      <a href="tel:8 800 000-00-00" class="footer__contact_text">8 800 000-00-00</a></p>
+                  </div>
+                  <div>
+                    <p><strong>E-mail:</strong>
+                      <a href="email:artdecor@gmail.com" class="footer__contact_text">artdecor@gmail.com</a></p>
+                  </div>
+                  <div class="mt-30">
+                    <p><a href="#!" class="footer__contact_politic">Политика конфиденциальности</a></p>
+                  </div>
+                  <div class="mt-30">
+                    <p>© 2018 ООО «АртДекор»</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+</body>
+
 </html>

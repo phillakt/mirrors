@@ -1,7 +1,7 @@
 
 .main-bg {
     padding: 100px 0;
-    background: url("../images/section_2-bg.jpg") no-repeat;
+    background: url("../images/section_2-bg.webp") no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left center;
@@ -9,7 +9,10 @@
     transform: translate3d(0,0,0);
     text-align: center;
     position: relative;
-    margin-bottom: 30px;
+
+    @media (max-width: 767px) {
+        padding: 30px 0;
+      }
 
     &::before {
         content: '';
@@ -30,6 +33,11 @@
     background-position: center center;
     border-color: transparent;
     border-style: solid;
+
+    @media (max-width: 767px) {
+        font-size: 36px;
+      }
+  
     }
 
     h2 {
@@ -41,5 +49,10 @@
         background-position: center center;
         border-color: transparent;
         border-style: solid;
+
+        @media (max-width: 767px) {
+            font-size: 20px;
+          }
+      
     }
 }

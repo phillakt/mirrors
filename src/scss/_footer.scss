@@ -1,0 +1,51 @@
+
+.footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #234c64;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    &__contact {
+        font-size: 22px;
+
+        &_text {
+            color: #fff;
+            line-height: 1.4;
+            font-weight: 100;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        p {
+            color: #fff;
+            line-height: 1.4;
+            font-weight: 100;
+            text-align: center;
+        }
+
+        strong {
+            color: #fff;
+            line-height: 1.4;
+            font-weight: 100;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        &_politic {
+            color: #fff;
+            line-height: 1.4;
+            font-weight: 100;
+            text-align: center;
+            font-weight: 100;
+            font-size: 16px;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}

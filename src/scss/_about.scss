@@ -1,5 +1,18 @@
 .about {
   padding: 100px 0;
+  background: #fff;
+  
+  @media (max-width: 767px) {
+    padding: 30px 0;
+  }
+
+  .logo {
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
 
   &__terms {
     font-size: 30px;
@@ -7,12 +20,39 @@
     text-align: center;
     font-weight: 300;
     margin-bottom: 100px;
+
+    @media (max-width: 767px) {
+      font-size: 18px;
+      line-height: 1.7;
+      text-align: center;
+      font-weight: 300;
+      margin-bottom: 30px;
+    }
   }
 
   &__title {
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 60px !important;
+    }
+
+
+    &-h2 {
+      text-align: center;
+      font-weight: 600;
+      font-size: 26px;
+    }
+    // margin-bottom: 40px;
+
+    &-advertising {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-weight: 500;
+      font-size: 22px;
+    }
 
     span {
       display: inline-flex;
@@ -34,18 +74,30 @@
 
   &__desc {
     font-size: 16px;
-    font-weight: 300;
-    margin-top: 60px;
-    margin-bottom: 100px;
+    font-weight: 200;
   }
 
   &__icons {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 30px;
+    }
+
     &_img {
       display: flex;
       justify-content: center;
       padding: 30px 0;
 
-      &-bg {
+      &-100 {
+        width: 100px;
+        height: 100px;
+        background-position: center;
+        background-size: contain;
+      }
+
+      &-80 {
         width: 80px;
         height: 80px;
         background-position: center;
@@ -54,9 +106,145 @@
     }
 
     &_desc {
-      font-size: 12px;
-      font-weight: 600;
+      font-size: 14px;
+      font-weight: 400;
       text-align: center;
+
+      &-16 {
+        font-size: 16px;
+      }
     }
   }
+
+  &__list {
+    font-weight: 100;
+    
+    ul {
+      list-style: none; 
+
+      li {
+        position: relative;
+        padding: 5px 5px 5px 30px;
+
+        &::before {
+          content: "";
+          position: absolute;
+          width: 5px;
+          height: 5px;
+          background: #000;
+          top: 10px;
+          left: 10px;
+          border-radius: 5em;
+        }
+      }
+    }
+
+    &-number {
+      font-size: 16px;
+      font-weight: 400;
+      list-style: none;
+
+      @media (max-width: 767px) {
+        padding-left: 20px;
+      }
+
+
+      li {
+        position: relative;
+        font-size: 18px;
+
+        &::before {
+          content: "";
+          position: absolute;
+          width: 20px;
+          height: 20px;
+          background: #000;
+          top: 0;
+          left: -15px;
+          border-radius: 5em;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          z-index: 1;
+        }
+
+      }
+
+      li:nth-child(1){
+
+        &::before {
+          content: "1";
+          color: #fff;
+          font-size: 12px;
+        }
+
+        &::after {
+          content: "";
+          position: absolute;
+          width: 2px;
+          height: 55px;
+          background: #000;
+          top: 10px;
+          left: -7px;
+          border-radius: 5em;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+      li:nth-child(2){
+
+        &::before {
+          content: "2";
+          color: #fff;
+          font-size: 12px;
+        }
+
+        &::after {
+          content: "";
+          position: absolute;
+          width: 2px;
+          height: 55px;
+          background: #000;
+          top: 10px;
+          left: -7px;
+          border-radius: 5em;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+      li:nth-child(3){
+
+        &::before {
+          content: "3";
+          color: #fff;
+          font-size: 12px;
+        }
+
+        &::after {
+          content: "";
+          position: absolute;
+          width: 2px;
+          height: 80px;
+          background: #000;
+          top: 5px;
+          left: -7px;
+          border-radius: 5em;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+      li:nth-child(4){
+
+        &::before {
+          content: "4";
+          color: #fff;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
 }
