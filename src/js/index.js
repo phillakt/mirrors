@@ -1,6 +1,6 @@
 const validator = require('validator');
 const axios = require('axios');
-
+// import 'bootstrap';
 
 var menu = document.querySelector('.menu');
 var btnTimes = document.querySelector('.btn-times');
@@ -33,6 +33,14 @@ menuBackLayer.onclick = function(){
 
 
 
+// Modal 
+
+var products__btn_more = document.querySelectorAll('.products__btn_more');
+
+products__btn_more.forEach((item, i) => {
+    item.setAttribute('data-toggle', 'modal');
+    item.setAttribute('data-target', '#productModal');
+})
 
 
 

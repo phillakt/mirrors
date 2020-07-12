@@ -1,7 +1,8 @@
 
 // Autoprefixer
 @import "../../node_modules/sass-autoprefixer/scss/prefixes";
-@import "../../node_modules/bootstrap-4-grid/css/grid.min.css";
+// @import "../../node_modules/bootstrap-4-grid/css/grid.min.css";
+@import "~bootstrap/scss/bootstrap";
 @import "../../node_modules/swiper/css/swiper.min.css";
 @import "../../node_modules/hamburgers/_sass/hamburgers/hamburgers.scss";
 

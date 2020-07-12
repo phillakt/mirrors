@@ -97,3 +97,26 @@
     }
   }
 }
+
+
+
+
+.modal {
+
+
+  &-title {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+  .modal-body {
+
+    input {
+      border: 1px solid #b27a63;
+    }
+  }
+
+  .desc {
+    font-size: 12px;
+  }
+}

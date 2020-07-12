@@ -13,14 +13,41 @@
   }
 
   &__box {
+    margin-bottom: 30px;
+    
     @media (max-width: 767px) {
       margin-bottom: 30px;
     }
   }
 
   &__img {
+    position: relative;
     height: 450px;
     margin-bottom: 15px;
+
+    img {
+      // width: 100%;
+      // height: auto;
+      width: 350px;
+      height: 450px;
+    }
+
+    &_view {
+
+    }
+
+    &_hide {
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      z-index: 1;
+      transition: all .3s ease-in-out;
+    }
+
+    &:hover .products__img_hide {
+      opacity: 1;
+    }
   }
 
   &__title {
